@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Proced To Checkout Page</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header>
+        <!-- place navbar here -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <i class="fa-brands fa-apple"></i>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " href="shop.html">Shop</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="cart.html">Cart</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <h2 class="my-4">Proced To Checkout Page</h2>
+
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="shop.html">Shop</a></li>
+                <li class="breadcrumb-item"><a href="cart.html">Cart</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Proced To Checkout</li>
+            </ol>
+        </nav>
+        <div class="row">
+            <div class="col-md-8">
+
+                <div class="card">
+                    <div class="card-body">
+
+                        <form method="post">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="mb-3">
+                                        <label for="name" class="form-label">Name:</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Name:">
+                                    </div>
+                                </div>
+                                <!-- col -->
+
+                                <div class="col-md-4">
+                                    <div class="mb-3">
+                                        <label for="phone" class="form-label">Phone Number:</label>
+                                        <input type="number" class="form-control" id="phone"
+                                            placeholder="Phone Number:">
+                                    </div>
+                                </div>
+                                <!-- col -->
+
+
+                                <div class="col-md-4">
+                                    <div class="mb-3">
+                                        <label for="city" class="form-label">City:</label>
+                                        <input type="text" class="form-control" id="city" placeholder="City:">
+                                    </div>
+                                </div>
+                                <!-- col -->
+                            </div>
+                            <!-- row -->
+                        </form>
+
+
+                    </div>
+                    <!-- card-body -->
+                </div>
+                <!-- card -->
+
+            </div>
+            <!-- col -->
+
+
+            <div class="col-md-4">
+
+                <div class="bg-light p-3 rounded">
+
+
+                    <div class="d-flex mb-3">
+                        <div class="me-auto">
+                            <h3 class="fw-bold">
+                                Total:
+                            </h3>
+                        </div>
+                        <div>
+                            <h3 class="fw-bold">
+                                650,00 DH
+                            </h3>
+                        </div>
+                    </div>
+                    <!-- d-flex -->
+
+
+
+                    <ul class="list-group">
+
+                        <li class="list-group-item bg-transparent">
+
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <img src="images/produits/product_img1.jpg" alt="..." width="40">
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h6 class="fw-bold">Blue Dress</h6>
+                                    <div class="fw-bold">
+                                        200,00 DH (1 Qty)
+                                    </div>
+
+                                </div>
+                                <!-- flex-grow-1 -->
+                            </div>
+                            <!-- d-flex -->
+
+                        </li>
+
+                        <li class="list-group-item bg-transparent">
+
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <img src="images/produits/product_img2.jpg" alt="..." width="40">
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h6 class="fw-bold">Red Shirt</h6>
+                                    <div class="fw-bold">
+                                        300,00 DH (2 Qty)
+                                    </div>
+
+                                </div>
+                                <!-- flex-grow-1 -->
+                            </div>
+                            <!-- d-flex -->
+
+                        </li>
+                    </ul>
+
+
+
+                    <a href="thanks-page.html" class="btn btn-dark fw-bold mt-3 rounded">
+                        <i class="fa-solid fa-money-check-dollar"></i>
+                        Confirm Order
+                    </a>
+
+                </div>
+                <!-- bg-light -->
+
+            </div>
+            <!-- col -->
+
+        </div>
+        <!-- row -->
+
+
+
+
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
